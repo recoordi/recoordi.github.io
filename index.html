@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recordi</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="lightbox.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Phudu&family=Rubik+Iso&family=Ubuntu&display=swap" rel="stylesheet">
+        <style>
+            #content {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="password-form">
+            <label for="password">Enter Password: </label>
+            <input type="password" id="password">
+            <button onclick="checkPassword()">Submit</button>
+        </div>
+    
+        <div id="content">
+            <div class="nav">
+                <h1 style="font-family: 'Phudu', cursive;
+                font-family: 'Rubik Iso', cursive;
+                font-family: 'Ubuntu', sans-serif;">RECORDI</h1>
+            </div>
+            <div class="container">
+                <div class="gallery">
+                    <a href="images/2.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/2.jpg" alt="">
+                    </a>
+                    <a href="images/3.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/3.jpg" alt="">
+                    </a>
+                    <a href="images/4.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/4.jpg" alt="">
+                    </a>
+                    <a href="images/5.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/5.jpg" alt="">
+                    </a>
+                    <a href="images/6.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/6.jpg" alt="">
+                    </a>
+                    <a href="images/7.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/7.jpg" alt="">
+                    </a>
+                    <a href="images/8.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/8.jpg" alt="">
+                    </a>
+                    <a href="images/9.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/9.jpg" alt="">
+                    </a>
+                    <a href="images/10.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/10.jpg" alt="">
+                    </a>
+                    <a href="images/11.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/11.jpg" alt="">
+                    </a>
+                    <a href="images/12.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/12.jpg" alt="">
+                    </a>
+                    <a href="images/13.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/13.jpg" alt="">
+                    </a>
+                    <a href="images/14.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/14.jpg" alt="">
+                    </a>
+                    <a href="images/15.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/15.jpg" alt="">
+                    </a>
+                    <a href="images/16.jpg" data-lightbox="image-2" data-title="My caption">
+                        <img src="images/16.jpg" alt="">
+                    </a>
+                    <video src="images/1.mp4" controls="controls"></video>
+                    <video src="images/17.mp4" controls="controls"></video>
+                    <video src="images/18.mp4" controls="controls"></video>
+            
+        
+                </div>
+        </div>
+    
+        <script>
+            function checkPassword() {
+                const passwordInput = document.getElementById("password");
+                const contentDiv = document.getElementById("content");
+    
+                // Replace 'your_password' with the actual password
+                const correctPassword = "goodmorning";
+    
+                if (passwordInput.value === correctPassword) {
+                    // Correct password entered, display the content
+                    contentDiv.style.display = "block";
+                    document.getElementById("password-form").style.display = "none";
+                } else {
+                    alert("Incorrect password. Please try again.");
+                    passwordInput.value = "";
+                }
+            }
+        </script>
+        <script src="lightbox-plus-jquery.js"></script>
+        
+
+    <script>
+        lightbox.option({
+        'disableScrolling': true
+    })
+    </script>
+
+
+    </body>
+    </html>
+    

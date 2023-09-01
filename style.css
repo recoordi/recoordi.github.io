@@ -67,6 +67,8 @@ h1 {
 }
 video {
     border-radius: 10px;
+    width: 300px;
+
 }
 #password-form {
     margin-top: 50vh;

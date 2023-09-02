@@ -5,7 +5,7 @@
     display: none;
 }
 .nav {
-    height: 10vh;
+    height: 8vh;
     width: 100vw;
     background-color: #1f1e1e;
     display: flex;
@@ -13,6 +13,7 @@
     justify-content: center;
     position: sticky;
     top: 0;
+    color: white;
 
 }
 i {

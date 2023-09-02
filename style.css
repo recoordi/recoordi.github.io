@@ -5,14 +5,15 @@
     display: none;
 }
 .nav {
-    height: 10vh;
+    height: 8vh;
     width: 100vw;
-    background-color: #3D7986;
+    background-color: #1f1e1e;
     display: flex;
     align-items: center;
     justify-content: center;
     position: sticky;
     top: 0;
+    color: white;
 
 }
 i {
@@ -23,7 +24,7 @@ h1 {
     margin-left: 100px;
 }
 
-@media (min-width:320px) and (max-width:420px) {
+@media (min-width:320px) and (max-width:440px) {
     i {
         font-size: 50px;
         margin-right: 50px;
@@ -49,7 +50,7 @@ h1 {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #778899;
+    background-color: #333333;
 }
 .gallery {
     display: grid;
@@ -67,6 +68,8 @@ h1 {
 }
 video {
     border-radius: 10px;
+    width: 300px;
+
 }
 #password-form {
     margin-top: 50vh;
